@@ -1,0 +1,57 @@
+@media only screen and (max-width: 480px){
+
+  .card {
+    width: 25.3077rem;
+    height: 39.3846rem;
+    flex-direction: column;
+  }
+
+  .card-image {
+    height: 15.3846rem;
+    width: 100%;
+    border-radius: 0.7692rem 0.7692rem 0 0;
+    background-position: 0rem -1.5385rem;
+  }
+
+  .card-body {
+    width: 100%;
+    height: 24rem;
+    padding: 2.9231rem 2.4615rem 0;
+  }
+
+  .title {
+    font-size: 1.2654rem;
+  }
+
+  .description {
+    font-size: 1.0077rem;
+    margin: 1rem 0 2.3846rem 0;
+  }
+
+  .speech-bubble-container {
+    position: relative;
+    top: -3.0769rem;
+    left: -2.3077rem;
+    display: none;
+    z-index: 1;
+  }
+
+  .speech-rectangle {
+    width: 328px;
+    height: 63px;
+    justify-content: flex-start;
+    border-radius: 0 0 0.7692rem 0.7692rem;
+    padding: 0 2.5385rem;
+    box-shadow: none;
+  }
+
+  .triangle-shadow {
+    display: none;
+  }
+
+  .share-btn {
+    position: relative;
+    z-index: 2;
+  }
+
+}
